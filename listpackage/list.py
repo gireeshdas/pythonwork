@@ -28,7 +28,7 @@
 #
 # print(count)
 
-numbers=[-1,2,0,3,4,5,-2,0,3,4,-5,0,7,0]
+# numbers=[-1,2,0,3,4,5,-2,0,3,4,-5,0,7,0]
 # p_count=0
 # n_count=0
 # z_count=0
@@ -42,8 +42,27 @@ numbers=[-1,2,0,3,4,5,-2,0,3,4,-5,0,7,0]
 #     elif(num==0):
 #         z_count+=1
 # print(f"+ve count{p_count},-ve count {n_count},zero count{z_count}")
-sum=0
+# sum=0
+# for num in numbers:
+#     sum+=num
+# print(sum)
+
+
+numbers=[-1,2,0,3,4,5,-2,0,3,4,-5,0,7,0]
+# p_count_sum=0
+# n_count_sum=0
+psum=0
+nsum=0
 for num in numbers:
-    sum+=num
-print(sum)
+    if num>0:
+        # p_count_sum+1
+        psum=psum+1
+        elif num<0:
+            # n_count_sum+1
+        nsum=nsum+1
+
+print(f"+ve count_sum{psum},-ve count_sum{nsum}")
+
+
+
 
