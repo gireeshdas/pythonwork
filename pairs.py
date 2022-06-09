@@ -19,6 +19,6 @@ while(low<upp):
         print(f"pairs {lst[upp]},{lst[low]}")
         break
     elif cur_sum<element:
-        low-=1
-    elif cur_sum>element:
         upp+=1
+    elif cur_sum>element:
+        low-=1
