@@ -19,20 +19,33 @@ mobiles = [
 # #
 # out_stock=[stock for stock in mobiles  if stock[5]=="apple"]
 # print(out_stock)
-#
+
+# total number of out of stock mobiles
+# out_stock_mobiles=[num for num in mobiles if num[-1]=="0"]
+# print(out_stock_mobiles)
+# print(len(out_stock_mobiles))
+# #
+# #total stock
+# avl_stock=[mob[-1] for mob in mobiles]
+# print(sum(avl_stock))
+# print mobiles 20k and 30k
+# mobiles_gt=[mob for mob in mobiles if mob[4]>=20000 and mob[4]<=30000]
+# print(mobiles_gt)
 #
 # # print samsung mobiles
 # samsung_mobiles=[sam for sam in mobiles if sam[5]=="samsung"]
 # print(samsung_mobiles)
-#
+# #
 # # print all 5g mobiles
 # fiveg_mobiles=[five for five in mobiles if five[2]=="5g"]
 # print(fiveg_mobiles)
 # #
 # # # # print costly mobile
-# # # costly_mobile=[for cost in mobiles if cost[4]]
-# # #
-# # #
+# max_prices=max([mob[4] for mob in mobiles])
+# costly_pro=[mob for mob in mobiles if mob[4]==max_prices]
+# print(costly_pro)
+
+
 # #
 # # # print low cost mobile
 # # lowcost_mobile=[]
@@ -48,17 +61,29 @@ mobiles = [
 # print(display_amoled)
 
 # sort mobile order based on price list bt descending
-# order=[price for price in mobiles if price[4]]
-# print(order)
+
 # mobiles.sort(reverse=True)
 
 
 # is there any mobile can available at rs 10000/-
-# available_price=[price for price in mobiles if price[4]=="10000"]
-# print(available_price)
+# mob_ten=[True if mob[4]==10000 else False  for mob in mobiles ]
+# print("available" if True in mob_ten else "not")
+# print(mob_ten)
+
+mob_ten=[mob[4]==10000 for mob in mobiles ]
+print("available" if True in mob_ten else "not")
+print(mob_ten)
+
+
 
 # list all mobiles having same price
-mobiles.sort()
-print(mobiles)
-same_price=[sprice for sprice in mobiles if sprice[4]=="27000"]
-print(same_price)
+# mobiles.sort()
+# print(mobiles)
+# same_price=[sprice for sprice in mobiles if sprice[4]=="27000"]
+# print(same_price)
+
+# mobiles.sort(reverse=True,key=lambda mob:mob[4])
+# max(mobiles,lambda mob:mob[4])
+
+costly_mobile=max(mobiles,key=lambda m:m[4])
+print(costly_mobile)

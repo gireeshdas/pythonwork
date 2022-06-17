@@ -9,7 +9,7 @@ element=8
 #             print("pairs",lst[i],lst[j])
 #
 #             break
-
+count=1
 low=0
 upp=len(lst)-1
 
