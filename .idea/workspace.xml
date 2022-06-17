@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f561956d-0a14-4202-903e-8f15bc6dc5d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listpackage/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/listpackage/products.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/pairs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionaryphm/recursivechar.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionaryphm/recursivechar.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.dictionarypg">
+  <component name="RunManager" selected="Python.results">
     <configuration name="accouns" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gireeshdaspythonwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="setdemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="results" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gireeshdaspythonwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,11 +107,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/setdemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dictionaryphm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setdemo/setdemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionaryphm/results.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dictionarypg" />
+        <item itemvalue="Python.results" />
         <item itemvalue="Python.recursivechar" />
+        <item itemvalue="Python.dictionarypg" />
         <item itemvalue="Python.wordcount" />
         <item itemvalue="Python.accouns" />
-        <item itemvalue="Python.setdemo" />
       </list>
     </recent_temporary>
   </component>
