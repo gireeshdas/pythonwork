@@ -11,8 +11,10 @@ f=open("abc.txt.py","w")
 
 lst=["python","javascript"]
 
-for lang in lst:
-    # for next line
-    lang+="\n"
-    f.write(lang)
+# for lang in lst:
+#     # for next line
+#     lang+="\n"
+#     f.write(lang)
+
+
 

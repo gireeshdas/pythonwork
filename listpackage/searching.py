@@ -1,19 +1,25 @@
-lst=[1,2,3,13,15,16,65,78,89]
+lst=[1,2,3,4,5,6,7,8,9,0]
+element=12
+flag=0
 
-
-element=15
-# flag=0
-# for num in arr:
-#     if element==num:
-#         flag=1
-#         break
-# print("element_fount" if flag!=0 else "not_fount")
-
-for i in range(0,len(lst)):
+for i in range (len(lst)):
     if element==lst[i]:
         flag=1
         break
-print("element_fount" if flag!=0 else "not_fount")
+
+print("number is found" if flag!=0 else "not found")
+
+
+element=2
+
+flag=0
+for i in range (len(lst)):
+    if element==lst[i]:
+        flag=1
+        break
+print("number is found" if flag!=0 else "not found")
+
+
 
 
 

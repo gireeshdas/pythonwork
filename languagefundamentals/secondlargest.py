@@ -1,6 +1,6 @@
 num1=5
 num2=6
-num3=7
+num3=3
 if(num1>num2) and (num1>num3):
     if(num2>num3):
         print(f"{num2} is second largest")

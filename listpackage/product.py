@@ -48,11 +48,11 @@ mobiles = [
 # print(costly_pro)
 #
 # # # print low cost mobile
-# # price=min([mob[4] for mob in mobiles ])
-# # costly_pro=[mob for mob in mobiles if mob[4]==price]
-# # print(costly_pro)
-# costly_pro=min(mobiles,key=lambda mob:mob[4])
-# print(costly_pro)
+price=min([mob[4] for mob in mobiles ])
+costly_pro=[mob for mob in mobiles if mob[4]==price]
+print(costly_pro)
+costly_pro=min(mobiles,key=lambda mob:mob[4])
+print(costly_pro)
 #
 #
 # # print all mobile having stock > 10

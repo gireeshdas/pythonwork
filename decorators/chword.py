@@ -18,3 +18,14 @@ master_word="abbeccddeffggf"
 #                     value=0
 #     if value==1:
 #         print(char)
+
+words=master_word.split(" ")
+
+ch_word={}
+
+for w in master_word:
+    if w in ch_word:
+        ch_word[w]+=1
+    else:
+        ch_word[w]=1
+print(ch_word)

@@ -9,5 +9,5 @@ def is_prime(num):
 def prime_range(low,upp):
     for num in range(low,(upp+1)):
         if is_prime(num):
-            prin boolt(num)
+            print (num)
 prime_range(12,21)
